@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  min-width: 650px;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  max-width: 45em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-content {
+  padding: 0 1em;
+}
+
+.text-content h2 {
+  width: 7.5em;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.text-content p {
+  font-size: 1.5rem;
+  max-width: 18em;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.125rem;
+  color: #fff;
+  text-decoration: none;
+  padding: .7em .8em;
+  border-radius: 8px;
+  background-color: #333;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-big {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.img-mecha img {
+  display: flex;
+  margin: 1em;
+  width: 90%;
+  max-width: 17em;
+  min-width: 12em;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
