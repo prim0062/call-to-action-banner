@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 *, *::before, *::after {
@@ -31,7 +31,7 @@ body {
 }
 
 .text-content {
-  padding: 0 1em;
+  padding: 0 1.5em;
 }
 
 .text-content h2 {
@@ -45,6 +45,8 @@ body {
 .text-content p {
   font-size: 1.5rem;
   max-width: 18em;
+  line-height: 1.4;
+  margin-top: .5em;
 }
 
 .btn {
@@ -68,10 +70,11 @@ body {
 
 .img-mecha img {
   display: flex;
-  margin: 1em;
+  margin: .75em;
+  margin-bottom: 6em;
   width: 90%;
-  max-width: 17em;
-  min-width: 12em;
+  max-width: 18em;
+  min-width: 11.75em;
 }
 
 .img-flex {
